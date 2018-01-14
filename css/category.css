@@ -1,0 +1,52 @@
+
+
+/* 这里面的高度需要一层一层去获取到 */
+html,
+body,
+.cate-main {
+	height: 100%;
+}
+.cate-main {
+	padding-top: 45px;
+	box-sizing:border-box;
+}
+.cate-main .aside {
+	width: 74px;
+	border-right: 1px solid #ccc;
+	height: 100%;
+	overflow: hidden;
+}
+.cate-main .aside li {
+	line-height: 35px;
+	height: 35px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.cate-main .article {
+	height: 100%;
+	margin-left: 85px;
+	overflow: hidden;
+}
+.imgwrap {
+	padding-top: 10px;
+}
+.scroll {
+	width: 101%;
+}
+.item {
+	margin-top: 10px;
+}
+.item > h5 {
+	font-size: 16px;
+	line-height: 2;
+}
+.item > ul {
+	background-color: #fff;
+}
+.item a {
+	display: block;
+	padding:0 10px;
+}
+.item p {
+	text-align: center;
+}

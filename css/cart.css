@@ -1,0 +1,110 @@
+/*
+* @Author: Administrator
+* @Date:   2017-11-22 15:09:49
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-11-23 10:19:27
+*/
+body {
+	padding-top: 45px;
+}
+.safe-tip {
+	height: 35px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	line-height: 35px;
+	text-align: center;
+}
+.safe-tip p:before {
+	content: '';
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	background:  url(../images/icons/safe_icon.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	/* vertical-align: middle;
+	margin-top: -3px; */
+	position: relative;
+	top: 5px;
+	margin-right: 5px;
+}
+
+.cart-main {
+	margin-top: 15px;
+	background-color: #fff;
+}
+.cart-main > .cart-t {
+	height: 35px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 35px;
+}
+.jd-zy {
+	position: relative;
+	text-indent: 20px;
+}
+.jd-zy:before {
+	width: 15px;
+	height: 10px;
+	left: 0;
+	-webkit-background-size: 120px;
+	background-size: 120px;
+}
+.free {
+	margin-right: 10px;
+	color: #d90000;
+}
+.item {
+	padding:10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.imgwrap {
+	width: 80px;
+	height: 80px;
+}
+.txtwrap {
+	margin-left: 130px;
+}
+.btn-wrap {
+	margin-top: 9px;
+}
+.icon-wrap {
+	width: 120px;
+	height: 35px;
+	border:1px solid #ccc;
+}
+.icon-wrap span {
+	height: 100%;
+	text-align: center;
+	line-height: 35px;
+}
+.icon-wrap span.num input{
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	outline: none;
+}
+.del {
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.del .del-t {
+	width: 20px;
+	height: 5px;
+	background:  url(../images/icons/delete_up.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	transition:transform .5s;
+	transform-origin: left bottom;
+}
+.del .del-b {
+	width: 18px;
+	height: 18px;
+	background:  url(../images/icons/delete_down.png) 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin: 0 auto;
+}
+
